@@ -1,6 +1,12 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
+#Implementation
+1.Layout and UI
+2.Default page load state
+3.API
+4.Genre Filter
+5. Search Filter
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
@@ -12,10 +18,9 @@ To start Metro, run the following command from the _root_ of your React Native p
 
 ```bash
 # using npm
-npm start
+npm install
+npx react-native run-android
 
-# OR using Yarn
-yarn start
 ```
 
 ## Step 2: Start your Application
@@ -26,7 +31,7 @@ Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _roo
 
 ```bash
 # using npm
-npm run android
+npx react-native run-android
 
 # OR using Yarn
 yarn android
